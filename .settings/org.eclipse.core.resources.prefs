@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/cn/edu/xjtu/pinauth/activity/LoginActivity.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/activity/MainActivity.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/activity/PlotActivity.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/activity/SettingActivity.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/classify/KNN.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/model/AuthEvent.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/model/PValue.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/model/TouchEvent.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/util/FileHelper.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/util/KeyboardHandler.java=UTF-8
+encoding//src/cn/edu/xjtu/pinauth/util/SensorMonitor.java=UTF-8

@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_weight="0.6"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/huawei_logo"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:text="当前用户:"
+            android:textColor="@color/blue"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="25dp"
+            android:text="username"
+            android:textColor="@color/black"
+            android:id="@+id/username_textview"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="已训练次数:"
+            android:textColor="@color/blue"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="18dp"
+            android:textSize="25dp"
+            android:text="20"
+            android:textColor="@color/black"
+            android:id="@+id/training_time_textView"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="训练"
+                android:id="@+id/training_button"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="学习"
+                android:id="@+id/plot_button"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@android:color/transparent" />
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="结果"
+                android:id="@+id/result_button"
+                android:layout_weight="1"
+                android:enabled="true"
+                android:background="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1" >
+            
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="设置"
+                android:id="@+id/setting_button"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="认证"
+                android:id="@+id/auth_button"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="保留"
+                android:id="@+id/reverse_button"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:background="@android:color/transparent" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
